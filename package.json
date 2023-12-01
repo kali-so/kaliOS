@@ -1,0 +1,28 @@
+{
+	"name": "kalihq",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "prettier --check .",
+		"format": "prettier --write .",
+		"devext": "nodemon --watch src --watch static --exec \"vite build\" -e json,ts,css,html,svelte"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.27.4",
+		"@types/chrome": "^0.0.253",
+		"autoprefixer": "^10.4.16",
+		"nodemon": "^3.0.1",
+		"postcss": "^8.4.31",
+		"prettier": "^3.0.0",
+		"prettier-plugin-svelte": "^3.0.0",
+		"svelte": "^4.2.7",
+		"sveltekit-adapter-chrome-extension": "^2.0.0",
+		"tailwindcss": "^3.3.5",
+		"vite": "^4.4.2"
+	},
+	"type": "module"
+}
