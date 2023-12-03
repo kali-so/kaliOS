@@ -19,7 +19,7 @@
 
 			if (distance < 0) {
 				clearInterval(interval);
-				timeLeft = 'Countdown ended';
+				timeLeft = 'DEMO DAY!';
 			}
 		}, 1000);
 	});
